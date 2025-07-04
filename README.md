@@ -12,18 +12,32 @@ This plugin automates that process.
 
 ## Installation
 
-After creating this package, you will typically host it on GitHub or npm.
+You can install the latest stable version of this package directly from your terminal using `curl` or `wget`.
 
-**To install from a private GitHub repository:**
+### One-Liner Installation (Recommended)
+
+This command will automatically detect the latest version tag from the GitHub repository, install the package, and update your `package.json`.
+
+**via `curl`**
 ```bash
-npm install git+ssh://git@github.com:sora8964/expo-config-plugin-android-variants.git
+bash <(curl -s https://raw.githubusercontent.com/sora8964/expo-config-plugin-android-variants/main/install-latest-plugin.sh)
 ```
-*(Replace the URL with your actual repository URL)*
 
-**To install from a local path for testing:**
+**via `wget`**
 ```bash
-# In your main project (e.g., galaxia-info), run:
-npm install R:/sync/workspace/@sora8964/expo-config-plugin-android-variants
+bash <(wget -qO- https://raw.githubusercontent.com/sora8964/expo-config-plugin-android-variants/main/install-latest-plugin.sh)
+```
+
+*(Note: You will need to update the URL to point to the correct repository and branch once it's created on GitHub.)*
+
+### Manual Installation
+
+If you prefer to install a specific version, you can do so by providing the version tag directly.
+
+```bash
+# Replace v1.0.0 with the desired version tag
+npm install git+ssh://git@github.com:sora8964/expo-config-plugin-android-variants.git#v1.0.0
+```
 ```
 
 ## Configuration
