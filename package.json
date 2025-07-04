@@ -1,0 +1,21 @@
+{
+    "name": "@sora8964/expo-config-plugin-android-variants",
+    "version": "1.0.0",
+    "description": "An Expo Config Plugin to automatically configure Android build variants for debug and release, setting different application IDs and names.",
+    "main": "index.js",
+    "scripts": {},
+    "keywords": [
+      "expo",
+      "expo-plugin",
+      "config-plugin",
+      "android",
+      "variants",
+      "applicationIdSuffix",
+      "react-native"
+    ],
+    "author": "sora8964",
+    "license": "MIT",
+    "peerDependencies": {
+      "@expo/config-plugins": "^8.0.0"
+    }
+  }
